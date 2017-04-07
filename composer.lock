@@ -4,8 +4,54 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "96098e473b028cdb2529580554a1ae3e",
+    "content-hash": "478a15afdcad07374b29f93d72c261ef",
     "packages": [
+        {
+            "name": "anlutro/l4-settings",
+            "version": "0.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/anlutro/laravel-settings.git",
+                "reference": "8bbaa98a7962e0e6106eb98aae03cfcabe78d848"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/anlutro/laravel-settings/zipball/8bbaa98a7962e0e6106eb98aae03cfcabe78d848",
+                "reference": "8bbaa98a7962e0e6106eb98aae03cfcabe78d848",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": ">=4.1 <6.0",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "illuminate/database": ">=4.1 <6.0",
+                "illuminate/filesystem": ">=4.1 <6.0",
+                "mockery/mockery": "0.9.*"
+            },
+            "suggest": {
+                "illuminate/database": "Save settings to a database table.",
+                "illuminate/filesystem": "Save settings to a JSON file."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "anlutro\\LaravelSettings\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Lutro",
+                    "email": "anlutro@gmail.com"
+                }
+            ],
+            "description": "Persistent settings in Laravel.",
+            "time": "2017-03-06T09:37:21+00:00"
+        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "0.1",
@@ -1917,6 +1963,56 @@
                 "instantiate"
             ],
             "time": "2015-06-14T21:17:01+00:00"
+        },
+        {
+            "name": "efriandika/laravel-settings",
+            "version": "v1.2.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/efriandika/laravel-settings.git",
+                "reference": "6d3bb6505808f677c7a56fa08fffbd4c430a9aa7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/efriandika/laravel-settings/zipball/6d3bb6505808f677c7a56fa08fffbd4c430a9aa7",
+                "reference": "6d3bb6505808f677c7a56fa08fffbd4c430a9aa7",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "5.*",
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "illuminate/database": ">=5.1 <6.0",
+                "illuminate/events": ">=4.1 <6.0",
+                "phpunit/phpunit": "4.6.*"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Efriandika\\LaravelSettings\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Efriandika Pratama",
+                    "email": "efriandika@gmail.com"
+                }
+            ],
+            "description": "Laravel 5 Persistent Settings",
+            "keywords": [
+                "Settings",
+                "laravel",
+                "persistent"
+            ],
+            "time": "2017-01-26T01:24:22+00:00"
         },
         {
             "name": "fzaninotto/faker",

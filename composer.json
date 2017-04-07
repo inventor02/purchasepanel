@@ -1,11 +1,12 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
+    "name": "inventor02/purchasepanel",
+    "description": "A simple, free and open source solution for managing purchases of software and authenticating licenses",
     "keywords": ["framework", "laravel"],
-    "license": "MIT",
+    "license": "GPL-3.0",
     "type": "project",
     "require": {
         "php": ">=5.6.4",
+        "anlutro/l4-settings": "^0.5.0",
         "laravel/framework": "5.4.*",
         "laravel/tinker": "~1.0"
     },
